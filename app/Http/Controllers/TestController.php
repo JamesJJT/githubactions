@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
-    public function index($int)
+    public function index(Int $int): Int
     {
-
+        return $int;
     }
 }
